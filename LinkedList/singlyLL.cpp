@@ -89,6 +89,16 @@ public:
         cout << endl;
     }
 
+    int size(){
+        node* tempNode = head;
+        int sizeLL = 0;
+        while(tempNode != NULL){
+            tempNode = tempNode->next;
+            sizeLL++;
+        }
+        return sizeLL;
+    }
+
 };
 
 
@@ -119,5 +129,7 @@ int main(){
     c.delAfter(c.getHead()->next);   // Delete 62 (which is after 14)
     cout << "LL C : ";
     c.display();
+
+    cout << "Size of C : " << c.size() << endl;
 
 }
