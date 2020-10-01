@@ -1,3 +1,14 @@
 {
-    "competitive-programming-helper.firstTime": false
+    "competitive-programming-helper.firstTime": false,
+    "files.associations": {
+        "*.tcc": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "regex": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
+    }
 }
